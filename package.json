@@ -1,0 +1,16 @@
+{
+  "name": "estacionamento",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node backend/index.js",
+    "start:dev": "nodemon backend/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.2"
+  }
+}
