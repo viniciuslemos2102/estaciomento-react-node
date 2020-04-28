@@ -1,0 +1,13 @@
+.card-container{
+  display: grid;
+  grid-row: 30px;
+  grid-column-gap: 30px ;
+  grid-template-columns: repeat(auto-fill,minmax(300px, 1fr));
+}
+.card-container h2{
+  color: #23aaa0;
+  margin-block-start: 0px;
+  margin-block-end: -4px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}

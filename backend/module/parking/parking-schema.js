@@ -1,4 +1,5 @@
 const mongoose =  require('mongoose');
+const monent = require('moment');
 
 const parkingSchema = mongoose.Schema({
   vehicle: {
@@ -21,7 +22,7 @@ const parkingSchema = mongoose.Schema({
 }, {
   timestamps: true,
   toJSON: { virtuals: true},
-  toObjects: { virtuals: true}
+  toObject: { virtuals: true}
 })
 
 parkingSchema.index({ vehicle: 1, vehiclePlate: 1, parkingStartAt: 1 })

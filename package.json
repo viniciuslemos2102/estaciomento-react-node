@@ -1,5 +1,5 @@
 {
-  "name": "estacionamento",
+  "name": "web",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -12,5 +12,7 @@
     "moment": "^2.24.0",
     "mongoose": "^5.9.7",
     "nodemon": "^2.0.2"
-  }
+  },
+  "repository": "https://github.com/viniciuslemos2102/estaciomento-react-node.git",
+  "author": "viniciuslemos2102 <viniciuslemoscontato21@gmail.com>"
 }
